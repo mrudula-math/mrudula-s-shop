@@ -7,27 +7,27 @@
         <table>
             <tr>
                 <td>
-                    <img src="images/Logo.png"; style="height: 100px; width: 100px;">
+                    <img src="images/Logo.png" style="height: 100px; width: 100px;">
                 </td>
                 <td>
                     <h1 style="color: blue; ">MRUDULA'S SHOP</h1>
                 </td>
                 <td>
-                    <form action="/script.js">
+                    <form>
                         <input type="text" id="search">
-                        <input type="submit" value="Search">
+                        <input type="button" value="Search" onclick="showSearchProduct()">
                     </form>
                  </td>
             </tr>
             <tr>
                 <td>
-                    <a href="/index.html">Home</a>
+                    <button onclick="showAllProducts()">All Products</button>
                 </td>
                 <td>
-                    <a href="/index.html">Men</a>
+                    <button onclick="showMenProducts()">Men</button>
                 </td>
                 <td>
-                    <a href="/index.html">Women</a>
+                    <button onclick="showWomenProducts()">Women</button>
                 </td>
             </tr>
         </table>
